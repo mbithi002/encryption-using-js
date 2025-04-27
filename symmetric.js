@@ -16,8 +16,8 @@ function xorDecrypt (cipherText, key) {
     return xorEncrypt(cipherText, key);
 }
 
-const key = '-----';
-const message = 'Hello, my name is John Doe';
+const key = '12jvowj9hfb349';
+const message = 'Hello, my name is Lucky Mbithi';
 
 const encrypted = xorEncrypt(message, key);
 console.log("Encrypted: ", btoa(encrypted));
