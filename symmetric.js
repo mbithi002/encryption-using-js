@@ -1,4 +1,4 @@
-// Symetric Encryption ( XOR Cypher )
+// Symmetric Encryption ( XOR Cypher )
 
 function xorEncrypt (plainText, key) {
     if (!plainText || !key) return null;
